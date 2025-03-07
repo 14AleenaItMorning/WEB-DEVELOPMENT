@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEENA</title>
+</head>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #53d865;
+        margin: 0;
+        padding: 20px;
+    }
+    #classcard{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    /* is say cards aik line ma ayy hain. */
+    .card{
+        background-color: #ffffff;
+        width: 300px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        overflow: hidden;
+        text-align: center;
+    }
+    .card img{
+        width:100%;
+        height:auto;
+    }
+    .card h2{
+        margin:15px 0;
+        color:#333;
+    }
+    .card p{
+        color:#666;
+        padding:0 15px 15px;
+        font-size: 14px;
+    }
+    .card button{
+        color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 15px;
+
+    }
+</style>
+
+<body>
+    <p style="text-align: center;">How to create a "card" with CSS</p>
+    <div id="classcard">
+        <div class="card">
+            <img src="./devops.jpg" alt="DEVOPS">
+            <h2>DevOps Card</h2>
+            <p>DevOPs is a collection of two words,"Developement" and "Operations",representing a cultural approach
+           that emphasizes collaboration between developement and operations teams to streamline the entire software
+           delivery lifecycle.
+            </p><br>
+            <p style="color: blue;">Continous Integration(CI)</p>
+            <p style="color: blue;" >Continous Deployement(CD)</p>
+            <P style="color: blue;">Infrastructure as Code(IaC)</P>
+            <button>READ MORE...</button>
+        </div>
+        <div class="card">
+            <img src="Full-Stack-Developer-Roadmap.webp" alt="FULL STACK">
+            <h2>Full Stack developer Roadmap</h2>
+            <p>A comprehensive roadmap for becoming a full stack developer,covering various technologies and skills required
+                in both front-end and back-end developement.</p><br><br>
+                <p style="color: blue;">HTML/CSS</p>
+                <p style="color: blue;">JavaScript</p>
+                <p style="color: blue;">Node.js</p>
+                <button>READ MORE...</button>
+        </div>
+        <div class="card">
+            <img src="./Top-Web-Development-Trends-1.jpg" alt="TRENDS">
+            <h2>Web Developement Trends</h2>
+            <p>Explore the latest trends in web developement,including advancements in technologies,frameworks, and best
+                practices shaping the future of web developement.</p><br>
+                <p style="color: blue;">Progressive Web Apps(PWAs)</p>
+                <p style="color: blue;">Serverless Architecture</p>
+                <p style="color: blue;">Single Page Applications(SPAs)</p>
+                </div>
+        
+            </div>
+    
+</body>
+</html>
